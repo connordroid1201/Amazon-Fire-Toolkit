@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Amazon Fire UltraTool</string>
+    <string name="app_name">Amazon Fire Toolkit(experimental)</string>
     <string name="edit_message">Type in a value</string>
     <string name="button_send">Enter</string>
     <string name="about">By Connor Darlington</string>
     <string name="sys_info">Hardware Info</string>
+    <string name="display_message">Well hello there!</string>
 </resources>
