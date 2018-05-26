@@ -3,6 +3,7 @@ package com.connor.amazonfireultratool;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
@@ -18,5 +19,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Capture the layout's TextView and set the string as its text
         TextView textView = findViewById(R.id.textView2);
         textView.setText(message);
-    }
+        WebView webView = new WebView(this);
+        setContentView(webView);
+        webView.loadUrl("https://www.amazon.com/");
+        }
+
 }
